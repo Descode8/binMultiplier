@@ -28,6 +28,7 @@ If the inputs are valid, the program will continue to process the multiplication
 output to the console and suggest to restart the program; then the program will safely and successful end.              *
 *************************************************************************************************************************/
 int main(){
+  puts("\n****************** BINARY MULTIPLIER ******************");
   int c = 0, acc = 00000000, mdr, mq;
   // prompt user for input
   printf("multiplicand: ");
